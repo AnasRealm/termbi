@@ -1,0 +1,37 @@
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.breadcrumb a,
+.breadcrumb .disabled {
+  text-decoration: none;
+  color: #999;
+  transition: color 0.3s;
+}
+
+.breadcrumb a.active {
+  color: #000;
+  font-weight: 600;
+}
+
+.breadcrumb a.completed {
+  color: #666;
+}
+
+.breadcrumb a.completed:hover {
+  color: #ff4444;
+}
+
+.breadcrumb .disabled {
+  cursor: not-allowed;
+}
+
+.breadcrumb .separator {
+  color: #ccc;
+  margin: 0 5px;
+}

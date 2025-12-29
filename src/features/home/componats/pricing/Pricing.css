@@ -1,0 +1,172 @@
+.pricing {
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.pricing-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 50px;
+  padding: 100px;
+}
+
+.check {
+  margin-right: 8px;
+}
+
+
+.pricing-grid {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  border-radius: 10px;
+  padding: 20px 25px;
+  position: relative;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 600px;
+  opacity: 1;
+  box-shadow: 2px 2px 10px 0px #0000001A;
+  z-index: 1;
+  transition: 0.3s all;
+
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+
+}
+
+.pricing-card.premium:hover {
+  transform: scale(1.1, 1.1);
+}
+
+
+
+.Intersect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 340px;
+  height: 210px;
+  z-index: -1;
+}
+
+.free {
+  /* background: #FEF2F2; */
+  color: black;
+}
+
+.premium {
+
+  color: white;
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+.premium .feature span {
+  color: black;
+}
+
+.enterprise {
+  /* background: #F9FAFB; */
+  color: black;
+}
+
+.pricing-card h3 {
+  font-size: 34px;
+  margin: 0 0 25px 0;
+  text-align: start;
+  font-weight: bold;
+}
+
+.price {
+  margin-bottom: 121px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.amount {
+  font-size: 36px;
+  font-weight: 700;
+  display: block;
+  line-height: 1;
+}
+
+.period {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-top: 3px;
+}
+
+.features {
+  text-align: left;
+  margin-bottom: 30px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 10px
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.select-btn {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d6c6c6;
+  background: #FFEDED;
+  color: black;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  margin-top: auto;
+}
+
+.select-btn:hover {
+  background: #E53E3E;
+  color: white;
+}
+
+.premium-btn {
+  color: white;
+  background-color: #E53E3E;
+}
+
+.premium-btn:hover {
+  background-color: #e22626ab;
+}
+
+@media (max-width: 768px) {
+  .pricing-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .premium {
+    transform: none;
+  }
+
+  .pricing-title {
+    font-size: 28px;
+  }
+}

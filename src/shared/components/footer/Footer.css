@@ -1,0 +1,162 @@
+.footer {
+  background: #2D2D2D;
+  color: white;
+  padding: 50px 0 0 0;
+  margin-top: 60px;
+  margin: 0 auto;
+}
+
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 200px 150px 150px 300px;
+  gap: 160px;
+  margin-bottom: 30px;
+  align-items: start;
+  justify-content: center;
+}
+
+.footer-logo img {
+  width: 200px;
+  height: auto;
+  margin-top: 34%;
+}
+
+.footer-section h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #CCCCCC;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li:hover {
+  color: #E53E3E;
+}
+
+.newsletter p {
+  font-size: 13px;
+  color: #CCCCCC;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  max-width: 280px;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 0;
+  max-width: 280px;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 13px;
+  outline: none;
+  background: white;
+  border-radius: 8px;
+}
+
+.newsletter-form input::placeholder {
+  color: #999;
+  font-size: 12px;
+}
+
+.newsletter-form button {
+  padding: 10px 16px;
+  background: #E53E3E;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 202px;
+}
+
+.newsletter-form button:hover {
+  background: #D32F2F;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid #444;
+  background: #1A1A1A;
+  margin: 0 -40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.copyright p {
+  font-size: 18px;
+  margin-left: 80px;
+  margin-top: 6px;
+  color: white;
+  font-weight: 600
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-right: 80px;
+}
+
+.social-icons a {
+  width: 45px;
+  height: 45px;
+  background: #444;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  font-size: 14px;
+}
+
+.social-icons a:hover {
+  background: #E53E3E;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .newsletter-form {
+    max-width: 100%;
+  }
+}

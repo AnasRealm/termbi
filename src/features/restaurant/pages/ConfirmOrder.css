@@ -1,0 +1,48 @@
+.confirm-order-page {
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.confirm-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.success-icon {
+  width: 100px;
+  height: 100px;
+  background: #ff4444;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 40px;
+}
+
+.success-icon i {
+  font-size: 50px;
+  color: white;
+}
+
+.confirm-container h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.go-home-btn {
+  padding: 15px 60px;
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.go-home-btn:hover {
+  background: #e63939;
+}

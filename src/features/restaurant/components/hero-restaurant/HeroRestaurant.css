@@ -1,0 +1,125 @@
+.hero-restaurant-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 10%;
+  background-color: #fff;
+  min-height: 80vh;
+  font-family: 'Inter', sans-serif;
+  /* Assuming Inter or similar sans-serif */
+}
+
+.hero-restaurant-content {
+  flex: 1;
+  max-width: 600px;
+  margin-bottom: 200px;
+}
+
+.hero-restaurant-content h1 {
+  width: 735px;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: #E31B23;
+}
+
+.subtext {
+
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 90px;
+  letter-spacing: 0%;
+
+}
+
+.location-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+  color: #666;
+  font-size: 1rem;
+}
+
+.location-info .icon {
+  color: #E31B23;
+}
+
+.rating-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.stars {
+  color: #FFD700;
+  letter-spacing: 2px;
+}
+
+.score {
+  font-weight: 600;
+}
+
+.reserve-btn {
+  background-color: #E31B23;
+  color: white;
+  border: none;
+  padding: 16px 48px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reserve-btn:hover {
+  background-color: #c4151c;
+}
+
+.hero-restaurant-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.hero-restaurant-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  position: relative;
+  top: -64px;
+  left: 190px;
+}
+
+@media (max-width: 968px) {
+  .hero-restaurant-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2rem 5%;
+    justify-content: center;
+  }
+
+  .hero-restaurant-image {
+    margin-bottom: 2rem;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .hero-restaurant-content {
+    width: 100%;
+  }
+
+  .location-info, .rating-info {
+    justify-content: center;
+  }
+}
