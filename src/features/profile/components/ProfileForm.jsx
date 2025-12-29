@@ -39,7 +39,7 @@ export default function ProfileForm() {
       <div className="profile-content">
         <div className="profile-image-section">
           <div className="profile-image">
-            <img src="/src/shared/assets/images/Group.png" alt="Profile" />
+            <img src="/images/Group.png" alt="Profile" />
           </div>
           <div className="profile-info">
             <h3>Ahmad AL-Ahmad</h3>

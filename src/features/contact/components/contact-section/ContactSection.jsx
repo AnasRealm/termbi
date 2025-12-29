@@ -76,7 +76,7 @@ export default function ContactSection() {
           
           <Col lg={6}>
             <div className="contact-image">
-              <img src="/src/shared/assets/images/Rectangle 7541.png" alt="Contact Us" className="img-fluid" />
+              <img src="/images/Rectangle 7541.png" alt="Contact Us" className="img-fluid" />
             </div>
           </Col>
         </Row>

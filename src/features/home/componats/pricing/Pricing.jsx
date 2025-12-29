@@ -11,7 +11,7 @@ export default function Pricing() {
         <div className="pricing-card free">
           <img
             className="Intersect"
-            src="/src/shared/assets/images/Intersect (1).png"
+            src="/images/Intersect (1).png"
             alt=""
           />
           <h3>Free</h3>
@@ -23,7 +23,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>
@@ -31,7 +31,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>
@@ -39,7 +39,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>
@@ -47,7 +47,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>
@@ -55,7 +55,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>
@@ -67,7 +67,7 @@ export default function Pricing() {
         <div className="pricing-card premium">
           <img
             className="Intersect"
-            src="/src/shared/assets/images/Intersect.png"
+            src="/images/Intersect.png"
             alt=""
           />
           <h3>Premium</h3>
@@ -79,7 +79,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Reservation</span>
@@ -87,7 +87,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Ordering</span>
@@ -95,7 +95,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Marketing</span>
@@ -103,7 +103,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>
@@ -111,7 +111,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>
@@ -119,7 +119,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>
@@ -131,7 +131,7 @@ export default function Pricing() {
         <div className="pricing-card enterprise">
           <img
             className="Intersect"
-            src="/src/shared/assets/images/Intersect (1).png"
+            src="/images/Intersect (1).png"
             alt=""
           />
           <h3>Enterprise</h3>
@@ -143,7 +143,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>
@@ -151,7 +151,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>
@@ -159,7 +159,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>
@@ -167,7 +167,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>
@@ -175,7 +175,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>
@@ -183,7 +183,7 @@ export default function Pricing() {
             <div className="feature">
               <img
                 className="check"
-                src="/src/shared/assets/images/check.png"
+                src="/images/check.png"
                 alt=""
               />
               <span>Services</span>

@@ -12,7 +12,7 @@ function DarkNavbar() {
       <div className="container">
        <div className="dark-navbar-left">
          <Link className="dark-navbar-logo" to="/">
-         <img src="/src/shared/assets/images/Group.png" alt="" />
+         <img src="/images/Group.png" alt="" />
         </Link>
          <div className="search-container">
           <i className="fas fa-search search-icon"></i>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./FeaturesSection.css";
-import groupImg from "../../../../shared/assets/images/Group (2).png";
-import dashboardImg from "../../../../shared/assets/images/Rectangle 7539.png";
+import groupImg from "/images/Group (2).png";
+import dashboardImg from "/images/Rectangle 7539.png";
 
 export default function FeaturesSection() {
   return (

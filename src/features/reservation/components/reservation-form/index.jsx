@@ -3,10 +3,10 @@ import { Container, Row, Col, Card, Form, Button } from 'react-bootstrap';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 import './ReservationForm.css';
-import TableIllustration from '../../../../shared/assets/images/Table illustration.png';
-import MultiTablesIllustration from '../../../../shared/assets/images/Multy tables.png';
-import RestaurantIllustration from '../../../../shared/assets/images/Resaurant illustration.png';
-import EventIllustration from '../../../../shared/assets/images/Event illustration.png';
+import TableIllustration from '/images/Table illustration.png';
+import MultiTablesIllustration from '/images/Multy tables.png';
+import RestaurantIllustration from '/images/Resaurant illustration.png';
+import EventIllustration from '/images/Event illustration.png';
 
 const MOCK_RESERVATION_TYPES = [
   {

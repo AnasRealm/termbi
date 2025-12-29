@@ -6,16 +6,16 @@ export default function WhyTermbi() {
     <section className="why">
       <img
         className="Ellips-1"
-        src="/src/shared/assets/images/Ellipse 1.png"
+        src="/images/Ellipse 1.png"
         alt=""
       />
       <img
         className="Ellips-2"
-        src="/src/shared/assets/images/Ellipse 2.png"
+        src="/images/Ellipse 2.png"
         alt=""
       />
       <div className="why-title">
-        <img src="/src/shared/assets/images/Group (1).png" alt="" />
+        <img src="/images/Group (1).png" alt="" />
       </div>
       <p className="why-description">
         Termbi's booking tool allows guests to check table availability in real

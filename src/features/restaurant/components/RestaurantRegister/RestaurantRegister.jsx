@@ -177,9 +177,9 @@ export default function RestaurantRegister() {
 
         <div className="register-left">
           <div className="logo-section">
-            <img src="/src/shared/assets/images/Group (2).png" alt="Termbi" className="logo" />
+            <img src="/images/Group (2).png" alt="Termbi" className="logo" />
             <p className="description">Restaurants Management System</p>
-            <img src="/src/shared/assets/images/illustration.png" alt="Illustration" className="illustration" />
+            <img src="/images/illustration.png" alt="Illustration" className="illustration" />
           </div>
         </div>
       </div>
